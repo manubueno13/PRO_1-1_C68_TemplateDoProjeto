@@ -27,10 +27,10 @@ export default class BottomTabNavigator extends Component {
           <Screen name="Histórico de Locações" component={RideHistoryScreen} />
           */}
 
-          {/*
+          
           <Tab.Screen name="Alugue uma Bicicleta" component={RideScreen} />
           <Tab.Screen name="Histórico de Locações" component={RideHistoryScreen} />
-          */}
+          
         </Tab.Navigator>
       </NavigationContainer>
     );
